@@ -13,7 +13,7 @@ git clone https://www.modelscope.cn/ZhipuAI/chatglm3-6b.git
 git clone https://www.modelscope.cn/AI-ModelScope/bge-large-zh-v1.5.git
 ```
 
-下载完放到`./model/chatglm3-6b`和`./model/bge-large-zh-v1.5`中
+下载完在根目录下创建`model`文件夹，分别放到`./model/chatglm3-6b`和`./model/bge-large-zh-v1.5`中
 
 
 2. 创建、激活conda虚拟环境
