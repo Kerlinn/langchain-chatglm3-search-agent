@@ -8,12 +8,12 @@
 1. 为防止本项目文件过大，项目中没有放模型文件，需要自己下载：
 
 ```bash
+# 在根目录下创建model文件夹, 然后分别git clone ChatGLM模型和Embedding模型
 git clone https://www.modelscope.cn/ZhipuAI/chatglm3-6b.git
-
 git clone https://www.modelscope.cn/AI-ModelScope/bge-large-zh-v1.5.git
 ```
 
-下载完在根目录下创建`model`文件夹，分别放到`./model/chatglm3-6b`和`./model/bge-large-zh-v1.5`中
+目录结构是这样的：`./model/chatglm3-6b`和`./model/bge-large-zh-v1.5`
 
 
 2. 创建、激活conda虚拟环境
